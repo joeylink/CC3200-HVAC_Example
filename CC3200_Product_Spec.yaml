@@ -1,0 +1,15 @@
+# Murano Product Spec File - CC3200 Example Application
+
+
+resources:
+-   alias: temperature
+    format: float
+-   alias: ambient_temperature
+    format: float
+-   alias: ac_on
+    format: string
+    initial: "no"
+-   alias: heat_on
+    format: string
+    initial: "yes"
+

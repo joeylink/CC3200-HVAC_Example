@@ -16,12 +16,12 @@
 
 5. Open the HVAC Demo
     * File --> Examples --> Exosite --> CC3200HVACDemo
-6. Open the Serial Monitor and run the HVAC Demo. Your MAC address will be printed at startup
+6. Open the Serial Monitor and run the HVAC Demo. Your MAC address will be printed in the serial monitor when you begin executing the code
 
-**Murano Setup**
+**Murano Product Setup**
 1. Create a new product in Murano
 2. copy and paste the following URL into the Link to your product template field:
 
- `https://raw.githubusercontent.com/exosite-garage/arduino_exosite_library/master/examples/Murano-SmartLightBulb-ThingDevBoard/product_spec_smart_lightbulb_example.yaml`
+`https://raw.githubusercontent.com/joeylink/CC3200-HVAC_Example/master/CC3200_Product_Spec.yaml`
 
- This will allow you to use a template spec file to automatically set up the product definition.
+This will allow you to use a template spec file to automatically set up the product definition.
